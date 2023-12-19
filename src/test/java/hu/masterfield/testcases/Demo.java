@@ -9,7 +9,8 @@ public class Demo extends BaseTest {
     protected static Logger logger = LogManager.getLogger(Demo.class);
 
     @Test
-    public void testDemo() {
+    public void testDemo() throws InterruptedException {
+        Thread.sleep(5000);
         logger.info("This is a Demo Test");
     }
 
