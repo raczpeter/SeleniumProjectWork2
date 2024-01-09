@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d9ef32-e329-4ef6-ad8f-1899a0ab6a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/browser/Nori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/GDPRBannerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC1_GDPR_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Consts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Screenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Screenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC1_GDPR_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC1_GDPR_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
       <recent name="C:\Masterfield\SeleniumProjectWork\src\test\java\hu\masterfield\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Nori">
+  <component name="RunManager" selected="JUnit.TC1_GDPR_Test">
     <configuration name="Nori" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.masterfield.browser.Nori" />
       <module name="SeleniumProjectWork" />
@@ -134,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Nori" />
-        <item itemvalue="JUnit.TC1_GDPR_Test.test_TC1_GDPR" />
-        <item itemvalue="JUnit.Gyongyi" />
         <item itemvalue="JUnit.TC1_GDPR_Test" />
+        <item itemvalue="JUnit.TC1_GDPR_Test.test_TC1_GDPR" />
+        <item itemvalue="Application.Nori" />
+        <item itemvalue="JUnit.Gyongyi" />
         <item itemvalue="JUnit.Demo" />
       </list>
     </recent_temporary>
@@ -172,8 +167,32 @@
       <option name="project" value="LOCAL" />
       <updated>1702990136505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2023.12.14 commit">
+      <created>1704636710200</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704636710200</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
