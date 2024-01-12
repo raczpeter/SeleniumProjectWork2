@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d9ef32-e329-4ef6-ad8f-1899a0ab6a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/CreateSavingsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/DepositPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/MyProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationFirstPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/TransactionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/ViewSavingsAccountsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC2_Registrationtest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC1_GDPR_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC1_GDPR_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NoriMatek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.masterfield.projectwork.browser.NoriMatek" />
       <module name="SeleniumProjectWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.masterfield.testcases.*" />
+          <option name="PATTERN" value="hu.masterfield.projectwork.browser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hu.masterfield.testcases" />
-      <option name="MAIN_CLASS_NAME" value="hu.masterfield.testcases.Demo" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TC1_GDPR_Test" />
+        <item itemvalue="Application.NoriMatek" />
         <item itemvalue="JUnit.TC1_GDPR_Test.test_TC1_GDPR" />
         <item itemvalue="Application.Nori" />
         <item itemvalue="JUnit.Gyongyi" />
-        <item itemvalue="JUnit.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704636710200</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2024.01.09 commit">
+      <created>1704828463258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704828463258</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="2023.12.14 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023.12.14 commit" />
+    <MESSAGE value="2024.01.09 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.01.09 commit" />
   </component>
 </project>
