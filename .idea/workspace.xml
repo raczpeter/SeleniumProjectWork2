@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d9ef32-e329-4ef6-ad8f-1899a0ab6a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/CreateSavingsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/DepositPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/MyProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationFirstPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/TransactionsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/ViewSavingsAccountsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC2_Registrationtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/browser/TwoFactor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704828463258</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2024.01.11 commit">
+      <created>1705038994418</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705038994418</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,6 +207,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="2023.12.14 commit" />
     <MESSAGE value="2024.01.09 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.01.09 commit" />
+    <MESSAGE value="2024.01.11 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.01.11 commit" />
   </component>
 </project>
