@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d9ef32-e329-4ef6-ad8f-1899a0ab6a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/datatypes/RegistrationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationSecondPage.java" afterDir="false" />
+    <list default="true" id="88d9ef32-e329-4ef6-ad8f-1899a0ab6a46" name="Changes" comment="2024.01.16 commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC3_Login_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/savingsData.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/CreateSavingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/CreateSavingsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationFirstPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationFirstPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationSecondPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationSecondPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC2_Registrationtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC2_Registrationtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Consts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +58,7 @@
       <recent name="C:\Masterfield\SeleniumProjectWork\src\test\java\hu\masterfield\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TC2_Registrationtest">
-    <configuration name="Nori" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.masterfield.browser.Nori" />
-      <module name="SeleniumProjectWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.masterfield.browser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TC3_Login_Test.TC3_LoginTest">
     <configuration name="NoriMatek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hu.masterfield.projectwork.browser.NoriMatek" />
       <module name="SeleniumProjectWork" />
@@ -96,22 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC1_GDPR_Test.test_TC1_GDPR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProjectWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.masterfield.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hu.masterfield.testcases" />
-      <option name="MAIN_CLASS_NAME" value="hu.masterfield.testcases.TC1_GDPR_Test" />
-      <option name="METHOD_NAME" value="test_TC1_GDPR(org.junit.jupiter.api.TestInfo)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TC2_Registrationtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectWork" />
       <extension name="coverage">
@@ -127,13 +102,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC2_Registrationtest.TC2_Registrationtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProjectWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.masterfield.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.masterfield.testcases" />
+      <option name="MAIN_CLASS_NAME" value="hu.masterfield.testcases.TC2_Registrationtest" />
+      <option name="METHOD_NAME" value="TC2_Registrationtest(org.junit.jupiter.api.TestInfo)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC3_Login_Test.TC3_LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProjectWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.masterfield.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.masterfield.testcases" />
+      <option name="MAIN_CLASS_NAME" value="hu.masterfield.testcases.TC3_Login_Test" />
+      <option name="METHOD_NAME" value="TC3_LoginTest(org.junit.jupiter.api.TestInfo)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TC3_Login_Test.TC3_LoginTest" />
         <item itemvalue="JUnit.TC2_Registrationtest" />
+        <item itemvalue="JUnit.TC2_Registrationtest.TC2_Registrationtest" />
         <item itemvalue="JUnit.TC1_GDPR_Test" />
         <item itemvalue="Application.NoriMatek" />
-        <item itemvalue="JUnit.TC1_GDPR_Test.test_TC1_GDPR" />
-        <item itemvalue="Application.Nori" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705221408086</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2024.01.16 commit">
+      <created>1705590025458</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705590025458</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +234,7 @@
     <MESSAGE value="2023.12.14 commit" />
     <MESSAGE value="2024.01.09 commit" />
     <MESSAGE value="2024.01.11 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.01.11 commit" />
+    <MESSAGE value="2024.01.16 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.01.16 commit" />
   </component>
 </project>
