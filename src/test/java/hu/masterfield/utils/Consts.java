@@ -32,7 +32,7 @@ public class Consts {
 
     public static final String SAVINGS_DATA_CSV = "/savingsData.csv";
 
-    public static final String SAVE_SAVINGS_DATA_CSV = "target/dumpSavings.csv"
+    public static final String SAVE_SAVINGS_DATA_CSV = "target/dumpSavings.csv";
 
     // Konstansok a regisztrációhoz
     public static final String REG_TITLE = "reg.title";

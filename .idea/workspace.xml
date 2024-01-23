@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d9ef32-e329-4ef6-ad8f-1899a0ab6a46" name="Changes" comment="2024.01.16 commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC3_Login_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/savingsData.csv" afterDir="false" />
+    <list default="true" id="88d9ef32-e329-4ef6-ad8f-1899a0ab6a46" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/datatypes/Saving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC4_Datasource_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/CreateSavingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/CreateSavingsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationFirstPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationFirstPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationSecondPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/RegistrationSecondPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC2_Registrationtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC2_Registrationtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/ViewSavingsAccountsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/ViewSavingsAccountsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Consts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Masterfield/SeleniumProjectWork/src/test/java/hu/masterfield/utils",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Masterfield/SeleniumProjectWork/src/test/java/hu/masterfield/utils&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Masterfield\SeleniumProjectWork\src\test\java\hu\masterfield\utils" />
@@ -209,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705590025458</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2024.01.18 commit">
+      <created>1705605627877</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705605627877</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +237,7 @@
     <MESSAGE value="2024.01.09 commit" />
     <MESSAGE value="2024.01.11 commit" />
     <MESSAGE value="2024.01.16 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.01.16 commit" />
+    <MESSAGE value="2024.01.18 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.01.18 commit" />
   </component>
 </project>
