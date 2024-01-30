@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d9ef32-e329-4ef6-ad8f-1899a0ab6a46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/apitestcases/BaseAPITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/apitestcases/Proba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/apitestcases/HealthCheckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/apitestcases/OwnershipTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/apitestcases/TC2_RegistrationAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/apitestcases/TC4_AccountsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/apitestcases/UserControllerGetUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/ViewSavingsAccountsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/pages/ViewSavingsAccountsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC4_Datasource_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/testcases/TC4_Datasource_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Consts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/masterfield/utils/Consts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/GlobalTestData.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ZRvQchLD1nfg9LZn3SlCQRuL2M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Masterfield/SeleniumProjectWork/src/test/java/hu/masterfield/utils&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Masterfield/SeleniumProjectWork2&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -54,8 +59,8 @@
       <recent name="C:\Masterfield\SeleniumProjectWork\src\test\java\hu\masterfield\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Proba.TC_Proba">
-    <configuration name="Proba" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TC4_AccountsTest.testAccounts">
+    <configuration name="OwnershipTypeTest.testOwnershipType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectWork" />
       <extension name="coverage">
         <pattern>
@@ -64,13 +69,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hu.masterfield.apitestcases" />
-      <option name="MAIN_CLASS_NAME" value="hu.masterfield.apitestcases.Proba" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="hu.masterfield.apitestcases.OwnershipTypeTest" />
+      <option name="METHOD_NAME" value="testOwnershipType" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proba.TC_Proba" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TC2_RegistrationAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectWork" />
       <extension name="coverage">
         <pattern>
@@ -79,55 +85,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hu.masterfield.apitestcases" />
-      <option name="MAIN_CLASS_NAME" value="hu.masterfield.apitestcases.Proba" />
-      <option name="METHOD_NAME" value="TC_Proba" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC3_Login_Test.TC3_LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProjectWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.masterfield.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hu.masterfield.testcases" />
-      <option name="MAIN_CLASS_NAME" value="hu.masterfield.testcases.TC3_Login_Test" />
-      <option name="METHOD_NAME" value="TC3_LoginTest(org.junit.jupiter.api.TestInfo)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC4_Datasource_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProjectWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.masterfield.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hu.masterfield.testcases" />
-      <option name="MAIN_CLASS_NAME" value="hu.masterfield.testcases.TC4_Datasource_Test" />
+      <option name="MAIN_CLASS_NAME" value="hu.masterfield.apitestcases.TC2_RegistrationAPITest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC4_Datasource_Test.TC4_Datasource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TC2_RegistrationAPITest.testCreateNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProjectWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hu.masterfield.testcases.*" />
+          <option name="PATTERN" value="hu.masterfield.apitestcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hu.masterfield.testcases" />
-      <option name="MAIN_CLASS_NAME" value="hu.masterfield.testcases.TC4_Datasource_Test" />
-      <option name="METHOD_NAME" value="TC4_Datasource(org.junit.jupiter.api.TestInfo)" />
+      <option name="PACKAGE_NAME" value="hu.masterfield.apitestcases" />
+      <option name="MAIN_CLASS_NAME" value="hu.masterfield.apitestcases.TC2_RegistrationAPITest" />
+      <option name="METHOD_NAME" value="testCreateNewUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC4_AccountsTest.testAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProjectWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.masterfield.apitestcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.masterfield.apitestcases" />
+      <option name="MAIN_CLASS_NAME" value="hu.masterfield.apitestcases.TC4_AccountsTest" />
+      <option name="METHOD_NAME" value="testAccounts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerGetUserTest.testGetUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProjectWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.masterfield.apitestcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.masterfield.apitestcases" />
+      <option name="MAIN_CLASS_NAME" value="hu.masterfield.apitestcases.UserControllerGetUserTest" />
+      <option name="METHOD_NAME" value="testGetUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Proba.TC_Proba" />
-        <item itemvalue="JUnit.Proba" />
-        <item itemvalue="JUnit.TC4_Datasource_Test" />
-        <item itemvalue="JUnit.TC4_Datasource_Test.TC4_Datasource" />
-        <item itemvalue="JUnit.TC3_Login_Test.TC3_LoginTest" />
+        <item itemvalue="JUnit.TC4_AccountsTest.testAccounts" />
+        <item itemvalue="JUnit.TC2_RegistrationAPITest" />
+        <item itemvalue="JUnit.TC2_RegistrationAPITest.testCreateNewUser" />
+        <item itemvalue="JUnit.OwnershipTypeTest.testOwnershipType" />
+        <item itemvalue="JUnit.UserControllerGetUserTest.testGetUser" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706045139317</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2024.01.25 commit">
+      <created>1706210445481</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706210445481</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +263,7 @@
     <MESSAGE value="2024.01.16 commit" />
     <MESSAGE value="2024.01.18 commit" />
     <MESSAGE value="2024.01.23 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024.01.23 commit" />
+    <MESSAGE value="2024.01.25 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.01.25 commit" />
   </component>
 </project>
