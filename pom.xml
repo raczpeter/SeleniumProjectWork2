@@ -18,6 +18,7 @@
         <maven.surefire.plugin.version>3.0.0-M3</maven.surefire.plugin.version>
     </properties>
 
+         
     <dependencies>
              
         <!-- JUnit: tesztek kiértékeléséhez, feltételek ellenőrzéséhez -->
