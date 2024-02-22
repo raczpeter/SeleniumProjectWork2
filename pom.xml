@@ -17,6 +17,7 @@
     </properties>
 
     <dependencies>
+             
         <!-- JUnit: tesztek kiértékeléséhez, feltételek ellenőrzéséhez -->
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
         <dependency>
